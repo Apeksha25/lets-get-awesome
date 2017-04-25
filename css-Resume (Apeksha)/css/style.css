@@ -1,0 +1,91 @@
+/* color-pallete
+cadet grey: #99A4B2
+myrtle green: #226D68
+keppel: #40AA99
+CHINESE RED: #B6371B
+ROSEWOOD: #6D0303
+*/
+
+/*Global area */
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+ 	margin: 0px;
+ }
+h1,h2{
+	font-family: 'Lobster Two', cursive;
+}
+h1{
+	margin: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+	margin:0px;
+	padding-bottom: 10px; 
+}
+
+a{
+	color: #6D0303;
+	
+}
+a:hover{
+	text-decoration: none;
+	color: #B6371B; 
+}
+.content-wrap{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+}
+img{
+	float: left;
+	margin: 40px;
+	border-radius: 100px;
+}
+.col-narrow {
+	width: 35%;
+	float: left;
+	min-height: 175px;
+	
+}
+.col-wide{
+	width: 65%;
+	float: left;
+	min-height: 175px;
+} 
+
+/*Header and Footer */
+header, footer{
+	background:#99A4B2;
+}
+
+/* Header */
+
+header h1, header h2{
+	color: #226D68;
+
+}
+
+/* Footer */
+footer{
+	text-align: center;
+}
+
+.contact-info a{
+	margin:20px;
+}
+
+/*Work Experience */
+.work{
+	background: #226D68;
+}
+
+
+/*Education */
+.education{
+	background: #40AA99;
+}
+
+
